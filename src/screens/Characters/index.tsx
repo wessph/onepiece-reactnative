@@ -1,10 +1,12 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {Text} from 'react-native';
 
-export const Characters = () => {
+import {Container} from './styles';
+
+export function Characters() {
   return (
-    <View>
+    <Container>
       <Text>Characters</Text>
-    </View>
+    </Container>
   );
-};
+}
